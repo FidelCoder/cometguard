@@ -2,7 +2,6 @@ use anyhow::{Result, Context};
 use ethers::core::types::{Address, U256};
 use std::str::FromStr;
 use std::fmt::Write;
-use tracing::{info, debug, error};
 
 /// Format an Address for display (0x123...abc)
 pub fn format_address(address: &Address) -> String {

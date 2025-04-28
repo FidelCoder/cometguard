@@ -21,7 +21,7 @@ A predictive risk management toolkit for Compound V3 that analyzes market condit
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/cometguard.git
+git clone https://github.com/FidelCoder/cometguard.git
 cd cometguard/risk-engine
 
 # Build the project
