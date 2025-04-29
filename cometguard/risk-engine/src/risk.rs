@@ -240,6 +240,7 @@ impl RiskProcessor {
         
         None
     }
+
 }
 
 #[cfg(test)]

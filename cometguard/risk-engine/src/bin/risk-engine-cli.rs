@@ -3,12 +3,12 @@ use clap::{Parser, Subcommand};
 use risk_engine::{
     config::Config,
     RiskEngine,
-    utils::{init_logger, format_address, format_percentage, format_money},
+    utils::{init_logger, format_address},
 };
 use std::path::PathBuf;
 use std::str::FromStr;
 use ethers::types::Address;
-use tracing::{info, warn, error};
+use tracing::{info, warn};
 
 #[derive(Parser)]
 #[command(
